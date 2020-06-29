@@ -1,0 +1,92 @@
+[
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Menstruation and menstrual cycle",
+    "Question": "If period blood is brown or black, it's a sign something's wrong.",
+    "WrongAnswer": "Oops, no, it was False! No need to worry, the colour of period blood can vary from pink-ish, to red, to brown, to almost black!👍",
+    "RightAnswer": "You're right, it was False! No need to worry: the colour of period blood can vary from pink-ish, to red, to brown, to almost black!👍",
+    "RightNumber": "2"
+  },
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Menstruation and menstrual cycle",
+    "Question": "If your period doesn't come, you are definitely pregnant.' 🤔",
+    "WrongAnswer": "The answer was False! Stress, extreme tiredness 😫 or poor nutrition can also make you miss your period.",
+    "RightAnswer": "You're right! Stress, extreme tiredness 😫, or poor nutrition can also make you miss your period.",
+    "RightNumber": "2"
+  },
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Managing menstruation",
+    "Question": "You should only use a tampon if you are no longer a virgin.' 🤔\n",
+    "WrongAnswer": "Incorrect! Anyone can use a tampon. 👍 The hymen usually stretches to let the tip of the tampon pass through.\n",
+    "RightAnswer": "Correct! Anyone can use a tampon. 👍 The hymen usually stretches to let the tip of the tampon pass through.",
+    "RightNumber": "2"
+  },
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Health, nutrition and exercise",
+    "Question": "Eating certain foods can change the smell of your period blood.🍛'\n",
+    "WrongAnswer": "Incorrect! Nothing you eat will affect the smell of your period blood, so eat what you like! 😋",
+    "RightAnswer": "Correct! Nothing you eat will affect the smell of your period blood, so eat what you like! 😋",
+    "RightNumber": "2"
+  },
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Health, nutrition and exercise",
+    "Question": "Dizziness during your period is not normal.'😵 \n",
+    "WrongAnswer": "Not true! Dizziness, weakness and excessive tiredness could be a sign of iron deficiency (anaemia). If you often feel this way, try and see a doctor.👩‍⚕️",
+    "RightAnswer": "That's right! Dizziness, weakness and excessive tiredness could be a sign of iron deficiency (anaemia). If you often feel this way, try and see a doctor.👩‍⚕️",
+    "RightNumber": "2"
+  },
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Puberty",
+    "Question": " 'Puberty and adolescence are the same thing.'🧐 \n",
+    "WrongAnswer": "The answer was false! Puberty is when a young person's body goes through physical changes. Adolescence is the whole journey to becoming an adult. 👦🧔\n",
+    "RightAnswer": "You're right, it was false! Puberty is when a young person's body goes through physical changes. Adolescence is the whole journey to becoming an adult. 👦🧔",
+    "RightNumber": "2"
+  },
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Family planning",
+    "Question": "A baby is created when the sperm from a man joins an egg from a woman.'👶\n",
+    "WrongAnswer": "It's actually true! When a guy ejaculates during sex, he releases millions of tiny sperm into the vagina, which swim up towards the uterus. 😮",
+    "RightAnswer": "That's right! When a guy ejaculates during sex, he releases millions of tiny sperm into the vagina, which swim up towards the uterus. 😮",
+    "RightNumber": "1"
+  },
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Family planning",
+    "Question": "It's possible to get pregnant even if you have never had a period.'🤔 \n",
+    "WrongAnswer": "It's actually true!! 😲Even if you've not started your period yet, it's possible your body might have released an egg which could be fertilised.",
+    "RightAnswer": "Yes, it's True! 😲Even if you've not started your period yet, it's possible your body might have released an egg which could be fertilised.",
+    "RightNumber": "1"
+  },
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Boys, men and relationships",
+    "Question": "Sex and gender are the same thing.'❓ \n",
+    "WrongAnswer": "It was false! Sex is defined by your chromosomes (male or female) 🔬Gender are the rules set by society about how you should behave as a man or a woman. \n",
+    "RightAnswer": "That's right, sex is defined by your chromosomes (male or female) 🔬Gender are the rules set by society about how you should behave as a man or a woman.",
+    "RightNumber": "2"
+  },
+  {
+    "1": "True",
+    "2": "False",
+    "Topic": "Myths and feelings",
+    "Question": "Beliefs around periods are one of the things that cause girls to be discriminated against.' 😕\n",
+    "WrongAnswer": "It was true! Incorrect beliefs around periods can lead to girls being discriminated against. 😲\n",
+    "RightAnswer": "You're right! Incorrect beliefs around periods can lead to girls being discriminated against. 😲\n",
+    "RightNumber": "1"
+  }
+]

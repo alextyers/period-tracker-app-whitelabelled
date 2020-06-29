@@ -1,0 +1,102 @@
+[
+  {
+    "1": "Antara 15-20",
+    "2": "28 pastinya",
+    "3": "Antara 21-35",
+    "Topic": "Menstruasi dan siklusnya",
+    "Question": "Berapa hari jeda menstruasi satu ke lainnya?🗓",
+    "WrongAnswer": "Jawaban yang benar itu nomor 3! Jeda menstruasi biasanya antara 21-35 hari, dan kadang lebih atau kurang. Setiap orang berbeda dan bervariasi dari waktu ke waktu. ☺️",
+    "RightAnswer": "Benar! Jeda menstruasi biasanya antara 21-35 hari, dan kadang lebih atau kurang. Setiap orang berbeda dan bervariasi dari waktu ke waktu. ☺️",
+    "RightNumber": "3"
+  },
+  {
+    "1": "Tidak mencucinya",
+    "2": "Bersihkan dengan air bersih",
+    "3": "Bersihkan bagian dalam vagina dengan air",
+    "Topic": "Mengenal menstruasimu",
+    "Question": "Apa cara yang benar membersihkan diri saat menstruasi?\n",
+    "WrongAnswer": "Jawaban benar itu nomor 2 - Bersihkan bagian luar tubuh dengan air bersih.🚿 Tidak perlu membersihkan vagina bagian dalam karena ini bisa menyebabkan infeksi.",
+    "RightAnswer": "Benar! Tidak perlu membersihkan vagina bagian dalam karena ini bisa menyebabkan infeksi. Bersihkan bagian luar tubuh dengan air bersih saja.🚿",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Zat-zat kimia di dalam tubuh.",
+    "2": "Makanan yang buruk.\n",
+    "3": "Tidak ada yang tahu",
+    "Topic": "Mengenal menstruasimu",
+    "Question": "Apa penyebab kram menstruasi? 🙄",
+    "WrongAnswer": "Oops! Jawabannya nomor 1 - zat kimia bernama prostaglandin diproduksi oleh tubuh dan menyebabkan kram. Kram membantu mengeluarkan sel dinding rahim ⬇️ .",
+    "RightAnswer": "Itu benar! Zat-zat kimia bernama prostaglandin diproduksi oleh tubuh dan menyebabkan kram. Kram membantu mengeluarkan sel dinding rahim ⬇️ .",
+    "RightNumber": "1"
+  },
+  {
+    "1": "Tidak benar",
+    "2": "Olahraga mengalihkan pikiranmu.",
+    "3": "Olahraga meningkatkan aliran darah dalam tubuhmu",
+    "Topic": "Kesehatan",
+    "Question": "Kenapa olahragabisa meredakan kram menstruasi?🏃🏽‍♀️\n",
+    "WrongAnswer": "Kali ini salah! Olahraga itu cara terbaik untuk membuat aliran darah lancar termasuk di bagian yang terasa sakit saat menstruasi. 😀",
+    "RightAnswer": "Betul sekali! Olahraga itu cara terbaik untuk membuat aliran darah lancar termasuk di bagian yang terasa sakit saat menstruasi. 😀",
+    "RightNumber": "3"
+  },
+  {
+    "1": "Antara 10-14 tahun",
+    "2": "Antara 9-10 tahun",
+    "3": "Antara 13-16 tahun",
+    "Topic": "Pubertas",
+    "Question": "Usia berapa remaja laki-laki mengalami pubertas? 👦🏽",
+    "WrongAnswer": "Oops, itu salah! Laki-laki mulai puber di usia 10-14 tahun. Mereka sedikit lebih terlambat dari perempuan 👩🏽 yang mulai puber dari usia 9 tahun!",
+    "RightAnswer": "Kamu benar, laki-laki mulai puber di usia 10-14 tahun. Mereka sedikit lebih terlambat dari perempuan 👩🏽 yang biasanya mulai di usia 9 tahun!",
+    "RightNumber": "1"
+  },
+  {
+    "1": "Pertumbuhan kaki dan bau napas",
+    "2": "Perubahan warna mata dan tumbuh bulu kaki",
+    "3": "Keringat berbau dan rambut ketiak",
+    "Topic": "Pubertas",
+    "Question": "Sebutkan 2 ciri pubertas? 🤔",
+    "WrongAnswer": "Salah! Saat kamu puber, kamu bau keringatmu lebih menyengat 😬, rambut ketiak akan tumbuh, dan perubahan lainnya.",
+    "RightAnswer": "Betul sekali! Saat kamu puber, kamu bau keringatmu lebih menyengat 😬, rambut ketiak akan tumbuh, dan perubahan lainnya.",
+    "RightNumber": "3"
+  },
+  {
+    "1": "Karena itu hak mereka",
+    "2": "Karena mereka bingung",
+    "3": "Karena mereka jahat",
+    "Topic": "Relasi dan lawan jenis",
+    "Question": "Kenapa laki-laki suka mengganggu perempuan yang sedang menstruasi? 😠",
+    "WrongAnswer": "Kurang tepat! Banyak laki-laki tidak mendapatkan informasi yang cukup tentang menstruasi.😳 Ini bisa membuat mereka menjadi bingung, atau mungkin cemburu terhadap hal spesial yang dialami perempuan.",
+    "RightAnswer": "Benar sekali! Banyak laki-laki tidak mendapatkan informasi yang cukup tentang menstruasi.😳 Ini bisa membuat mereka menjadi bingung, atau mungkin cemburu terhadap hal spesial yang dialami perempuan.",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Hanya perempuan",
+    "2": "Perempuan dan laki-laki",
+    "3": "Siapapun yang lahir dengan alat kelamin perempuan",
+    "Topic": "Relasi dan lawan jenis",
+    "Question": "Siapa mengalami menstruasi?",
+    "WrongAnswer": "Jawabannya nomor 3! Siapapun yang terlahir dengan alat kelamin perempuan mengalami menstruasi. Mereka akan tetap menstruasi kecuali mereka makan obat tertentu. 🙂",
+    "RightAnswer": "Benar! Siapapun yang terlahir dengan alat kelamin perempuan mengalami menstruasi. Mereka akan tetap menstruasi kecuali mereka makan obat tertentu. 🙂",
+    "RightNumber": "3"
+  },
+  {
+    "1": "Gunakan 2 celana dalam",
+    "2": "Bicara dengan orang yang sudah menstruasi",
+    "3": "Tidak memikirkannya",
+    "Topic": "Mitos dan perasaan",
+    "Question": "Gimana supaya perempuan siap menghadapi menstruasi pertama? 🤔",
+    "WrongAnswer": "Jawaban benar itu nomor 2 - pengalaman menstruasi pertamamu mungkin membuatmu kaget, akan sangat membantu jika diskusi dengan teman atau keluarga yang sudah mengalami menstruasi. Kamu tidak sendirian! ☺️",
+    "RightAnswer": "Benar - pengalaman menstruasi pertamamu mungkin membuatmu kaget, akan sangat membantu jika diskusi dengan teman atau keluarga yang sudah mengalami menstruasi. Kamu tidak sendirian! ☺️",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Olahraga.",
+    "2": "Menyiapkan makanan.",
+    "3": "Tidak ada.",
+    "Topic": "Mitos dan perasaan",
+    "Question": "Hal apa yang tidak boleh dilakukan saat menstruasi? 😳",
+    "WrongAnswer": "Jawabannya nomor 3! Perempuan bisa melakukan apapun yang mereka mau saat sedang menstruasi! 👏 Beberapa aturan mungkin membatasi mereka, tapi tidak ada alasan ilmiah yang mendukungnya.",
+    "RightAnswer": "Tepat sekali! Perempuan bisa melakukan apapun yang mereka mau saat sedang menstruasi! 👏 Beberapa aturan mungkin membatasi mereka, tapi tidak ada alasan ilmiah yang mendukungnya.",
+    "RightNumber": "3"
+  }
+]
