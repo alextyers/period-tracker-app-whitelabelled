@@ -111,14 +111,10 @@ export const config = {
 
 ### config
 
-The config file period-tracker-app-firebase-config.json is untraced and should be requested first from the relevant body/person. By default this is:
-
-```
-okyperiodtracker@gmail.com
-```
+Setup your own Firebase Project for your application and add in the config JSON file.
 
 It should then be pasted into `period-tracker-app/packages/cms` alongside the `ormconfig.ts` file.
-This file serves to link the related functionality between the app and dashboard ( dashboard).
+This file serves to link the related functionality between the app and dashboard (dashboard).
 
 ### Build the backend/website/cms/api for development
 
