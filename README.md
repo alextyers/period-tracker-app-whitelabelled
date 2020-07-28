@@ -113,7 +113,7 @@ export const config = {
 
 Setup your own Firebase Project for your application and add in the config JSON file.
 
-It should then be pasted into `period-tracker-app/packages/cms` alongside the `ormconfig.ts` file.
+It should then be pasted into `period-tracker-app/packages/cms/period-tracker-app-firebase-config.json` alongside the `ormconfig.ts` file.
 This file serves to link the related functionality between the app and dashboard (dashboard).
 
 ### Build the backend/website/cms/api for development
