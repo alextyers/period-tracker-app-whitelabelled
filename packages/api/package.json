@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@period-tracker-app/core": "*",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "body-parse": "^0.1.0",
     "class-validator": "^0.8.1",
     "cookie-parser": "^1.4.4",
