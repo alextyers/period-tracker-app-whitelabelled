@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "722926342083",
+    "firebase_url": "https://oky-app.firebaseio.com",
+    "project_id": "period-tracker-app",
+    "storage_bucket": "oky-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722926342083:android:2243b68fa959c82abab776",
+        "android_client_info": {
+          "package_name": "com.periodtrackerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722926342083-qsjad00oi3um7t40nrlhahorvvvu1rsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD312gc18vtAnyslmsVljuzbqPMRmef0UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722926342083-qsjad00oi3um7t40nrlhahorvvvu1rsr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

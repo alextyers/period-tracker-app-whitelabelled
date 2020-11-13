@@ -1,0 +1,112 @@
+[
+  {
+    "1": "Between 15-20.",
+    "2": "28 exactly",
+    "3": "Between 21 - 35",
+    "Topic": "Menstruation and menstrual cycle",
+    "Question": "How many days should there be between each period? 🗓\n",
+    "WrongAnswer": "Sorry, the answer was 3! Periods usually last between 21-35 days, and sometimes more or less than that. This varies from girl to girl and from period to period. ☺️",
+    "RightAnswer": "Correct! Periods usually last between 21-35 days, and sometimes more or less than that. This varies from girl to girl and from period to period.☺️",
+    "RightNumber": "3"
+  },
+  {
+    "1": "You should not wash during your period.",
+    "2": "Wash your private parts with clean water.",
+    "3": "Wash inside your vagina with water.",
+    "Topic": "Managing menstruation",
+    "Question": "What is the correct way to wash during your period? 💦\n",
+    "WrongAnswer": "The answer was 2  - you should wash with clean water on the outside of your body.🚿No need to wash inside your vagina as this can cause infection.",
+    "RightAnswer": "You're right! Never wash inside your vagina as this can cause infection. Just wash with clean water on the outside of your body.🚿",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Chemicals in your body.",
+    "2": "Bad food",
+    "3": "Nobody knows.",
+    "Topic": "Managing menstruation",
+    "Question": "What causes menstrual cramps? 🙄\n",
+    "WrongAnswer": "Oops! The answer was 1 - chemicals called prostaglandins are produced by your body and cause cramps. The cramps help push the womb lining out. ⬇️",
+    "RightAnswer": "That's right! Chemicals called prostaglandins are produced by your body and cause cramps. The cramps help push the womb lining out. ⬇️",
+    "RightNumber": "1"
+  },
+  {
+    "1": "Exercising helps you lose weight and thin people don't have bad cramps.",
+    "2": "Exercising takes your mind off the pain.",
+    "3": "Exercising increases the flow of blood around your body.",
+    "Topic": "Health, nutrition and exercise",
+    "Question": "Why does exercising help soothe period cramps? 🏃🏽‍♀️",
+    "WrongAnswer": "Wrong this time! Exercising is a great way to get your blood flowing anywhere you might feel pain during your period. 😀",
+    "RightAnswer": "You got it! Exercising is a great way to get your blood flowing anywhere you might feel pain during your period. 😀",
+    "RightNumber": "3"
+  },
+  {
+    "1": "Between 10-14",
+    "2": "Between 9-10",
+    "3": "Between 13-16",
+    "Topic": "Puberty",
+    "Question": "At what age do boys start puberty? 👦🏽\n",
+    "WrongAnswer": "Oops, that's incorrect! Puberty for boys usually starts between the ages of 10-14. That's a little later than for girls 🙋‍♀️ where puberty can start from age 9!",
+    "RightAnswer": " That's right, puberty for boys usually starts between the ages of 10-14. That's a little later than for girls 👩🏽 where puberty can start from age 9!",
+    "RightNumber": "1"
+  },
+  {
+    "1": "Growing feet & bad breath",
+    "2": "Changing eye colour & hairy legs",
+    "3": "Smelly sweat & underarm hair",
+    "Topic": "Puberty",
+    "Question": "What are 2 signs of puberty? 🤔\n",
+    "WrongAnswer": "Incorrect! When you go through puberty, you might notice your sweat smells stronger😬, and you will develop hair under your arms, as well as other changes.",
+    "RightAnswer": "You got it! When you go through puberty, you might notice your sweat smells stronger😬, and you will develop hair under your arms, as well as other changes.",
+    "RightNumber": "3"
+  },
+  {
+    "1": "It's always OK.\n",
+    "2": "As long as both partners are OK with it.\n",
+    "3": "Only if you say a blessing first.",
+    "Topic": "Family planning",
+    "Question": "In which situation is it OK to have sex during your period? 🤷‍♀️",
+    "WrongAnswer": "The answer was 2! There's nothing wrong with having sex during your period. 🙂But it's still possible to get pregnant, so make sure to use contraception!",
+    "RightAnswer": " Exactly right - there's nothing wrong with having sex during your period. 🙂But it's still possible to get pregnant, so make sure to use contraception!",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Because it's their right.\n",
+    "2": "Because they're confused.\n",
+    "3": "Because they're bored.",
+    "Topic": "Boys, men and relationships",
+    "Question": "Why do boys tease girls during their periods? 😠",
+    "WrongAnswer": "Incorrect! Boys, like girls, aren't given enough information on periods. 😳This can make them feel confused, maybe even jealous about this special thing girls experience.",
+    "RightAnswer": "Right answer! Boys, like girls, aren't given enough information on periods. 😳This can make them feel confused, maybe even jealous about this special thing girls experience.",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Only girls",
+    "2": " Girls and boys\n",
+    "3": "Girls and transgender men",
+    "Topic": "Boys, men and relationships",
+    "Question": "Who can get periods? 🤨",
+    "WrongAnswer": "The answer was 3! Girls who feel more comfortable living as men are called transgender. They will continue getting their periods unless they take a special medicine. 💊",
+    "RightAnswer": "Right! Girls who feel more comfortable living as men are called transgender. They will continue getting their periods unless they take a special medicine.💊",
+    "RightNumber": "3"
+  },
+  {
+    "1": "Start wearing two pairs of underwear.",
+    "2": "Talk to other girls and women about what to expect.\n",
+    "3": "Try not to think about it.",
+    "Topic": "Myths and feelings",
+    "Question": "How can girls prepare for their first period? 🤔",
+    "WrongAnswer": "The answer was 2 - although your first period can be a shock, it helps to talk to friends or family who've been there before. You're not alone! ☺️",
+    "RightAnswer": "Right - although your first period can be a shock, it really helps to talk to friends or family who've been there before. You're not alone! ☺️",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Exercise",
+    "2": "Food preparation",
+    "3": "Nothing",
+    "Topic": "Myths and feelings",
+    "Question": "What should girls avoid doing during their period? 😳\n",
+    "WrongAnswer": "The answer was 3! Girls can do anything they feel like when they have their period! 👏 Some rules may restrict them, but there is no scientific reason for this.",
+    "RightAnswer": "Bravo! Girls can do anything they feel like when they have their period! 👏Some rules may restrict them, but there is no scientific reason for this.",
+    "RightNumber": "3"
+  }
+]

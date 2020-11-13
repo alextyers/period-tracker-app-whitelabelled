@@ -1,0 +1,65 @@
+[
+  {
+    "1": "Benar",
+    "2": "Salah",
+    "Topic": "Menstruasi dan siklusnya",
+    "Question": "Jika darah menstruasi berwarna cokelat atau hitam, itu tanda ada yang salah. 😰",
+    "WrongAnswer": "Oops, itu Salah! Tidak perlu khawatir, warna darah menstruasi berbeda-beda mulai dari merah muda ke merah, cokelat ke hitam.!!👍",
+    "RightAnswer": "Kamu benar, itu Salah! Tidak perlu khawatir dengan warna darah menstruasi berbeda-beda mulai dari merah muda ke merah, cokelat ke hitam!👍",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Benar",
+    "2": "Salah",
+    "Topic": "Menstruasi dan siklusnya",
+    "Question": "Jika bulan ini kamu tidak menstruasi, kamu pasti lagi hamil. 🤔",
+    "WrongAnswer": "Jawabannya itu Salah! Stres, capek berlebih 😫, atau kurang nutrisi bisa bikin kamu tidak menstruasi.",
+    "RightAnswer": "Kamu benar! Stres, capek berlebih 😫, atau kurang nutrisi bisa bikin kamu tidak menstruasi.",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Benar",
+    "2": "Salah",
+    "Topic": "Mengenal menstruasimu",
+    "Question": "Kamu sebaiknya menggunakan tampon jika sudah tidak perawan 🤔",
+    "WrongAnswer": "Salah! Siapapun bisa menggunakan tampon. 👍 Selaput dara akan meregang supaya tampon bisa masuk.",
+    "RightAnswer": "Benar! Siapapun bisa menggunakan tampon. 👍 Selaput dara akan meregang supaya tampon bisa masuk.",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Benar",
+    "2": "Salah",
+    "Topic": "Kesehatan",
+    "Question": "Makan makanan tertentu akan mengubah bau darah menstruasimu.🍛",
+    "WrongAnswer": "Salah! Makan apapun tidak akan mengubah bau darah menstruasi, jadi makanlah apapun yang kamu suka! 😋",
+    "RightAnswer": "Benar! Makan apapun tidak akan mengubah bau darah menstruasi, jadi makanlah makanan yang kamu suka! 😋",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Benar",
+    "2": "Salah",
+    "Topic": "Kesehatan",
+    "Question": "Pusing saat menstruasi itu normal.' 😵",
+    "WrongAnswer": "Kurang tepat! Pusing, lemah dan capek berlebih bisa jadi tanda kamu sedang kekurangan zat besi (anemia). Jika kamu selalu merasa seperti ini, cobalah berkonsultasi dengan dokter. 👩‍⚕️",
+    "RightAnswer": "Benar sekali! Pusing, lemah dan capek berlebih bisa jadi tanda kamu sedang kekurangan zat besi (anemia). Jika kamu selalu merasa seperti ini, cobalah berkonsultasi dengan dokter. 👩‍⚕️",
+    "RightNumber": "1"
+  },
+  {
+    "1": "Benar",
+    "2": "Salah",
+    "Topic": "Relasi dan lawan jenis",
+    "Question": "Jenis kelamin dan gender itu sama saja.❓",
+    "WrongAnswer": "Ini Salah! Jenis kelamin ditentukan oleh kromosom (laki-laki dan perempuan) 🔬. Gender merupakan aturan-aturan yang dibuat oleh masyarakat tentang bagaimana kamu bersikap sebagai laki-laki atau perempuan.",
+    "RightAnswer": "Benar! Jenis kelamin ditentukan oleh kromosom (laki-laki dan perempuan) 🔬. Gender merupakan aturan-aturan yang dibuat oleh masyarakat tentang bagaimana kamu bersikap sebagai laki-laki atau perempuan.",
+    "RightNumber": "2"
+  },
+  {
+    "1": "Benar",
+    "2": "Salah",
+    "Topic": "Mitos dan perasaan",
+    "Question": "Kepercayaan seputar menstruasi bisa menyebabkan perempuan didiskriminasi.' 😕",
+    "WrongAnswer": "Salah - jawabannya adalah Benar! Kepercayaan seputar menstruasi bisa menyebabkan perempuan mengalami diskriminasi. 😲",
+    "RightAnswer": "Kamu benar! Kepercayaan seputar menstruasi bisa menyebabkan perempuan mengalami diskriminasi. 😲",
+    "RightNumber": "1"
+  }
+]

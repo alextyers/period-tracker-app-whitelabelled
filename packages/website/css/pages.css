@@ -1,0 +1,953 @@
+/*mobile*/
+@media only screen and (max-width: 767px) {
+  header {
+    background-color: white;
+  }
+
+  .banner {
+    position: relative;
+  }
+  .about-banner {
+    position: absolute;
+    width: 100vw;
+    height: 82vw;
+    background-image: url(../img/mobile/img_about-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -4.5vw -7vw;
+  }
+  .for-parents-banner {
+    position: absolute;
+    width: 100vw;
+    height: 81vw;
+    background-image: url(../img/mobile/img_parents-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -4.5vw -2vw;
+  }
+  .open-source-banner {
+    position: absolute;
+    width: 100vw;
+    height: 82vw;
+    background-image: url(../img/mobile/img_OS-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -4.5vw vw;
+  }
+  .about-banner-title {
+    margin-top: 74.5vw;
+    font-size: 9.6vw;
+    font-weight: 900;
+    color: #e93081;
+  }
+  .parents-banner-title {
+    margin-top: 80.5vw;
+  }
+  .articles {
+    position: relative;
+    padding-bottom: 49vw;
+    overflow: hidden;
+  }
+  .open_body .open-articles:after {
+    content: '';
+    display: none;
+  }
+  .articles-text {
+    margin-top: 4.3vw;
+    font-size: 4.3vw;
+    line-height: 5.1vw;
+  }
+  .articles-unicef-img {
+    margin: auto;
+    width: 41vw;
+    height: 24vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .articles-the-case-for-her-img {
+    margin: auto auto 8vw auto;
+    width: 41vw;
+    height: 32vw;
+  }
+  .articles-the-case-for-her-img-text {
+    width: 41vw;
+    font-size: 3.6vw;
+    font-weight: bold;
+    text-align: center;
+  }
+  .articles-the-case-for-her-img-inner {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .articles-image-left {
+    position: relative;
+    margin: auto;
+    margin-bottom: 26vw;
+    width: 70vw;
+    height: 70vw;
+    background-image: url(../img/mobile/img_about-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .articles-image-left-circle {
+    position: absolute;
+    top: 37vw;
+    left: -14.5vw;
+    width: 27vw;
+    height: 27vw;
+    margin-top: 10vw;
+    margin-left: 2vw;
+    background-color: #f49200;
+    border-radius: 50%;
+  }
+  .articles-image-left-circle:before {
+    content: '';
+    position: absolute;
+    width: 16vw;
+    height: 16vw;
+    top: 0.5vw;
+    left: 9.2vw;
+    background-image: url(../img/mobile/white-smiling-face_263a.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .articles-circle-transparant {
+    position: absolute;
+    width: 55vw;
+    height: 55vw;
+    bottom: -31.5vw;
+    right: -23.8vw;
+    background-color: rgba(40, 185, 202, 0.3);
+    border-radius: 50%;
+  }
+  .articles-text-container {
+    /*margin-top: 18vw;*/
+  }
+  .articles-subtitle {
+    font-size: 8.3vw;
+    font-weight: 900;
+    line-height: 10vw;
+  }
+  .articles-text-container1 {
+    margin-top: 19vw;
+  }
+  .articles-title {
+    font-size: 9.6vw;
+    font-weight: 900;
+    line-height: 12vw;
+    color: #e93081;
+  }
+  .article-title-about {
+    margin-top: 9vw;
+    margin-left: -36vw;
+  }
+  .articles-image-right {
+    position: relative;
+    width: 97vw;
+    height: 97vw;
+    background-image: url(../img/mobile/img_about-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  .articles-image-right-cont {
+    /*margin-top: -14vw;*/
+    width: 100vw;
+  }
+  /* .articles-image-supermen {
+		position: absolute;
+	    top: 98.4vw;
+	    right: 13.4vw;
+	    width: 15vw;
+	    height: 23vw;
+	    background-image: url(../img/mobile/man-superhero_1f9b8-200d-2642-fe0f.png);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	} */
+  .articles-text-container2 {
+    margin-top: 17vw;
+  }
+  .articles-text-container3 {
+    margin-top: 18vw;
+  }
+  .article-circ-with-emo-1 {
+    position: relative;
+    margin-top: 0;
+    margin-left: 5vw;
+    width: 16vw;
+    height: 16vw;
+    background-image: url(../img/mobile/thinking-face_1f914.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-1:after {
+    content: '';
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    top: -3vw;
+    right: 1vw;
+    background-color: #a2c72d;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-circ-with-emo-2 {
+    position: relative;
+    margin-top: 16vw;
+    margin-left: 0;
+    width: 14vw;
+    height: 14vw;
+    background-image: url(../img/mobile/face-with-monocle_1f9d0.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-2:after {
+    content: '';
+    position: absolute;
+    width: 22vw;
+    height: 22vw;
+    top: 1vw;
+    right: -2vw;
+    background-color: #28b9cb;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-circ-with-emo-3 {
+    position: relative;
+    margin-top: 7vw;
+    margin-left: 0;
+    width: 16vw;
+    height: 16vw;
+    background-image: url(../img/mobile/astonished-face_1f632.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-3:after {
+    content: '';
+    position: absolute;
+    width: 31vw;
+    height: 31vw;
+    top: 0;
+    right: 2vw;
+    background-color: #ffe000;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-circ-with-emo-4 {
+    position: relative;
+    margin-top: 15vw;
+    margin-bottom: 38vw;
+    margin-left: 0;
+    width: 10vw;
+    height: 15vw;
+    background-image: url(../img/mobile/ok-hand-sign_1f44c.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .article-circ-with-emo-4:after {
+    content: '';
+    position: absolute;
+    width: 23vw;
+    height: 23vw;
+    top: 3vw;
+    right: -11vw;
+    background-color: #ffe000;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-circ-with-emo-4-parents {
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 60vw;
+    width: 10vw;
+    height: 15vw;
+    background-image: url(../img/mobile/ok-hand-sign_1f44c.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-4-parents:after {
+    content: '';
+    position: absolute;
+    width: 23vw;
+    height: 23vw;
+    top: 5vw;
+    right: -9vw;
+    background-color: #ffe000;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-img-supergirl {
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    width: 22vw;
+    height: 36vw;
+    background-image: url(../img/mobile/woman-superhero_1f9b8-200d-2640-fe0f.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-img-supergirl:after {
+    content: '';
+    position: absolute;
+    width: 46vw;
+    height: 46vw;
+    top: -10vw;
+    right: -4vw;
+    background-color: #a5ebfd;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-img-supergirl-parents {
+    position: absolute;
+    width: 46vw;
+    height: 46vw;
+    top: -39vw;
+    left: -53vw;
+    background-color: #a5ebfd;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-bottom-circle-1-container {
+    overflow: hidden;
+    position: absolute;
+    bottom: 7vw;
+    right: 0;
+    width: 24vw;
+    z-index: -1;
+  }
+  .article-bottom-circle-1-container-parents {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0vw;
+    height: 24vw;
+    z-index: -1;
+  }
+  .article-bottom-circle-1 {
+    width: 49vw;
+    height: 49vw;
+    background-color: #ea3081;
+    border-radius: 50%;
+  }
+  .article-bottom-circle-2-container {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 17vw;
+    height: 33vw;
+    z-index: -2;
+  }
+  .article-bottom-circle-2-container-parents {
+    overflow: hidden;
+    position: absolute;
+    bottom: 16vw;
+    right: 0;
+    width: 8vw;
+    z-index: -2;
+  }
+
+  .article-bottom-circle-2 {
+    width: 52vw;
+    height: 52vw;
+    background-color: #a2c72c;
+    border-radius: 50%;
+  }
+  .article-bottom-circle-3-container-parents {
+    overflow: hidden;
+    position: absolute;
+    bottom: 45vw;
+    right: 0;
+    width: 22vw;
+    z-index: -2;
+  }
+  .article-bottom-circle-3-parents {
+    width: 52vw;
+    height: 52vw;
+    background-color: #1b7900;
+    border-radius: 50%;
+  }
+  .articles:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 11vw;
+    background-image: url(../img/mobile/img_footer.png);
+    background-size: 100%;
+  }
+  .reuse-info-block {
+    margin-top: -6vw;
+  }
+  .open-source-banner-title {
+    line-height: 10vw;
+  }
+  .info-block-title {
+    font-size: 6.8vw;
+  }
+  .parents-reuse-laptop-img {
+    /* position: absolute; */
+    position: relative;
+    margin-left: 67vw;
+    margin-top: 9vw;
+    /* bottom: -8.2vw; */
+    /* right: 11.5vw; */
+    width: 18vw;
+    height: 14vw;
+    background-image: url(../img/desktop/personal-computer_1f4bb@2x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .parents-reuse-emo-container {
+    position: absolute;
+    bottom: -5vw;
+    right: 45.5vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: #a2c72d;
+  }
+  .parents-reuse-emo {
+    position: absolute;
+    bottom: 5vw;
+    right: 4.8vw;
+    width: 7vw;
+    height: 9vw;
+    background-image: url(../img/desktop/white-down-pointing-backhand-index_1f447@2x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .reuse-big-circle-2-container-open {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: -21vw;
+    width: 21vw;
+    z-index: -2;
+    transform: scale(-1);
+  }
+  .reuse-big-circle-2-open {
+    width: 58vw;
+    height: 58vw;
+    background-color: #a5ebfd;
+    border-radius: 50%;
+  }
+  .article-circ-with-emo-5-open {
+    position: relative;
+    top: -38vw;
+    left: 24vw;
+    width: 14vw;
+    height: 25.6vw;
+    background-image: url(../img/desktop/mobile-phone_1f4f1@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-5-open:after {
+    content: '';
+    position: absolute;
+    width: 33vw;
+    height: 33vw;
+    top: 2.6vw;
+    right: 1.7vw;
+    background-color: rgba(162, 199, 45, 0.7);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .open-form {
+    /*margin-top: 13vw;*/
+  }
+  .open-container {
+    margin-top: -34vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .banner {
+    position: relative;
+    height: 58vw;
+  }
+  .about-banner {
+    position: absolute;
+    width: 89vw;
+    height: 59vw;
+    background-image: url(../img/desktop/img_about-1@2x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -3.3vw -15.1vw;
+  }
+  .for-parents-banner {
+    position: absolute;
+    width: 89vw;
+    height: 66vw;
+    background-image: url(../img/desktop/img_parents-1@2x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -3.3vw -7.1vw;
+  }
+  .open-source-banner {
+    position: absolute;
+    width: 100vw;
+    height: 59.5vw;
+    background-image: url(../img/desktop/img_OS-1@2x.png);
+    background-size: 112%;
+    background-repeat: no-repeat;
+    background-position: -3.3vw -15.1vw;
+  }
+  .about-banner-title {
+    margin-top: 15vw;
+    padding-left: 0.8vw;
+    font-size: 4.2vw;
+    font-weight: 900;
+    color: #e93081;
+  }
+  .parents-banner-title {
+    margin-top: 19vw;
+  }
+  .open-source-banner-title {
+    margin-top: 37vw;
+    line-height: 4.8vw;
+  }
+  .parents-articles {
+    margin-top: 5vw;
+  }
+  .articles {
+    position: relative;
+    /*	overflow: hidden; */
+    overflow: visible;
+  }
+  .parents-articles {
+    margin-top: 5vw;
+  }
+  .open-articles {
+    padding-top: 4.3vw;
+  }
+  .articles-text-container-0 {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .articles-text-container4 {
+    margin-bottom: 2vw;
+  }
+  .articles-text-container4-parents {
+    margin-bottom: 15vw;
+  }
+  .articles-text-container5 {
+    margin-bottom: 2vw;
+  }
+  .articles-text {
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    line-height: 1.9vw;
+  }
+  .articles-text-open {
+    margin-bottom: 2vw;
+  }
+  .article-circ-with-emo-1 {
+    position: relative;
+    margin-left: 6vw;
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../img/mobile/thinking-face_1f914.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-1:after {
+    content: '';
+    position: absolute;
+    width: 14vw;
+    height: 14vw;
+    top: -1.6vw;
+    right: -1vw;
+    background-color: #a2c72d;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-circ-with-emo-2 {
+    position: relative;
+    margin-left: 5.5vw;
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../img/mobile/face-with-monocle_1f9d0.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-2:after {
+    content: '';
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    top: -2vw;
+    right: 0vw;
+    background-color: #28b9cb;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-circ-with-emo-3 {
+    position: relative;
+    margin-left: 5vw;
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../img/mobile/astonished-face_1f632.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-3:after {
+    content: '';
+    position: absolute;
+    width: 14vw;
+    height: 14vw;
+    top: 0;
+    right: 0;
+    background-color: #ffe000;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-circ-with-emo-4 {
+    position: absolute;
+    bottom: -16vw;
+    width: 3.3vw;
+    height: 8vw;
+    background-image: url(../img/mobile/ok-hand-sign_1f44c.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-4:after {
+    content: '';
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: -5vw;
+    right: -6vw;
+    background-color: #ffe000;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-circ-with-emo-5 {
+    position: relative;
+    margin-top: 8.4vw;
+    margin-bottom: 2vw;
+    margin-left: 7.8vw;
+    width: 8.3vw;
+    height: 15.6vw;
+    background-image: url(../img/desktop/mobile-phone_1f4f1@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-5:after {
+    content: '';
+    position: absolute;
+    width: 19vw;
+    height: 19vw;
+    top: -8.4vw;
+    right: -2.3vw;
+    background-color: #a2c72d;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .articles-unicef-img {
+    margin-top: -1vw;
+    width: 26vw;
+    height: 12vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .articles-the-case-for-her-img {
+    position: absolute;
+    top: -1.3vw;
+    left: 21vw;
+    margin: auto;
+    width: 10vw;
+    text-align: center;
+    height: 12vw;
+  }
+  .articles-the-case-for-her-img-text {
+    width: 100%;
+    font-size: 1.15vw;
+    font-weight: bold;
+    text-align: center;
+  }
+  .articles-the-case-for-her-img-inner {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .articles-image-left {
+    position: absolute;
+    /*top: -6vw;*/
+    right: -9.6vw;
+    width: 31vw;
+    height: 31vw;
+    background-image: url(../img/mobile/img_about-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .articles-image-left-about {
+    top: -6vw;
+  }
+  .articles-image-left-circle {
+    position: absolute;
+    top: 16.5vw;
+    right: 22.8vw;
+    width: 10vw;
+    height: 10vw;
+    margin-top: 10vw;
+    margin-left: 2vw;
+    background-color: #f49200;
+    border-radius: 50%;
+  }
+  .articles-image-left-circle:before {
+    content: '';
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    top: -0.5vw;
+    left: 4.2vw;
+    background-image: url(../img/mobile/white-smiling-face_263a.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .articles-circle-transparant {
+    position: absolute;
+    width: 22vw;
+    height: 22vw;
+    bottom: -14.5vw;
+    right: -5.8vw;
+    background-color: rgba(40, 185, 202, 0.3);
+    border-radius: 50%;
+  }
+  .articles-circle-transparant-right {
+    position: absolute;
+    width: 45vw;
+    height: 45vw;
+    bottom: -42.5vw;
+    right: 62.2vw;
+    background-color: rgba(40, 185, 202, 0.2);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .articles-text-container {
+    /*margin-top: 1vw;*/
+  }
+  .articles-subtitle {
+    font-size: 2.8vw;
+    font-weight: 900;
+    line-height: 4vw;
+  }
+  .articles-text-container1 {
+    margin-top: -1vw;
+  }
+  .articles-title {
+    font-size: 4.9vw;
+    font-weight: 900;
+    color: #e93081;
+  }
+  .articles-image-right-cont {
+    /* margin-top: -5vw; */
+    /* margin-left: -10.5vw; */
+    /* margin-right: 10.5vw; */
+    margin-bottom: -10vw;
+  }
+  .articles-image-right {
+    position: relative;
+    margin-left: 10vw;
+    width: 30vw;
+    height: 30vw;
+    background-image: url(../img/mobile/img_about-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .articles-image-supermen {
+    display: none;
+    position: absolute;
+    top: 32.4vw;
+    left: 39vw;
+    width: 5.6vw;
+    height: 8.6vw;
+    background-image: url(../img/desktop/man-superhero_1f9b8-200d-2642-fe0f@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .article-img-supergirl {
+    position: relative;
+    margin: 5vw 0;
+    bottom: 2vw;
+    left: 22vw;
+    width: 4vw;
+    height: 10vw;
+    background-image: url(../img/desktop/woman-superhero_1f9b8-200d-2640-fe0f@3x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-img-supergirl:after {
+    content: '';
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: -4.5vw;
+    right: 1vw;
+    background-color: #a5ebfd;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .articles-text-container2 {
+    /*margin-top: 103vw;*/
+  }
+  .articles-text-container3 {
+    margin-top: 6vw;
+    margin-bottom: 3vw;
+  }
+  .article-bottom-circle-1-container {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 2vw;
+    height: 14vw;
+    z-index: -1;
+  }
+  .article-bottom-circle-1-container-parents {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    right: 2vw;
+    height: 9vw;
+    z-index: -1;
+  }
+  .article-bottom-circle-1 {
+    width: 24vw;
+    height: 24vw;
+    background-color: #ea3081;
+    border-radius: 50%;
+  }
+  .article-bottom-circle-2-container {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 24.5vw;
+    height: 5vw;
+    z-index: -2;
+  }
+  .article-bottom-circle-2-container-parents {
+    overflow: hidden;
+    position: absolute;
+    bottom: -4vw;
+    right: 0;
+    width: 8vw;
+    z-index: 1;
+  }
+  .article-bottom-circle-2 {
+    width: 18vw;
+    height: 18vw;
+    background-color: #ffe000;
+    border-radius: 50%;
+  }
+  .text-buttom {
+    margin-bottom: 15vw;
+  }
+  .article-bottom-circle-3-container {
+    overflow: hidden;
+    position: absolute;
+    top: 88vw;
+    right: 0;
+    width: 8vw;
+    z-index: -2;
+  }
+  .article-bottom-circle-3 {
+    width: 14vw;
+    height: 14vw;
+    background-color: #a2c72d;
+    border-radius: 50%;
+  }
+  .article-bottom-circle-4-container {
+    overflow: hidden;
+    position: absolute;
+    top: 82vw;
+    right: 1.3vw;
+
+    z-index: -1;
+  }
+  .article-bottom-circle-4 {
+    width: 12vw;
+    height: 12vw;
+    background-color: #1b7900;
+    border-radius: 50%;
+  }
+  .open-form {
+    /*margin-top: -57vw;*/
+    /*height: 64vw;*/
+  }
+  .reuse-big-circle-1-container-parents {
+    top: 5.5vw;
+  }
+  .reuse-info-block-parents {
+    margin-top: 26vw;
+  }
+  .parents-reuse-laptop-img {
+    position: relative;
+    margin-left: 76vw;
+    margin-top: 6vw;
+    width: 10vw;
+    height: 8vw;
+    background-image: url(../img/desktop/personal-computer_1f4bb@2x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .parents-reuse-emo-container {
+    position: absolute;
+    bottom: 7vw;
+    right: 35.5vw;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    background-color: #a2c72d;
+  }
+  .parents-reuse-emo {
+    position: absolute;
+    bottom: 3vw;
+    right: 3.8vw;
+    width: 4vw;
+    height: 8vw;
+    background-image: url(../img/desktop/white-down-pointing-backhand-index_1f447@2x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(-90deg) scaleY(-1);
+  }
+  .article-circ-with-emo-4-parents {
+    position: absolute;
+    bottom: -1vw;
+    left: 4vw;
+    width: 4vw;
+    height: 9vw;
+    background-image: url(../img/mobile/ok-hand-sign_1f44c.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .article-circ-with-emo-4-parents:after {
+    content: '';
+    position: absolute;
+    width: 11vw;
+    height: 11vw;
+    top: -2vw;
+    right: -4vw;
+    background-color: #ffe000;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .article-bottom-circle-4-container-parents {
+    overflow: hidden;
+    position: absolute;
+    top: 67vw;
+    right: 1.3vw;
+    z-index: 0;
+  }
+  .article-bottom-circle-4-parents {
+    width: 12vw;
+    height: 12vw;
+    background-color: #1b7900;
+    border-radius: 50%;
+  }
+}
