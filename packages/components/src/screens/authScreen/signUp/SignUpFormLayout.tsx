@@ -31,4 +31,8 @@ const Container = styled.View`
   width: 100%;
   justify-content: center;
   align-items: center;
+  shadow-color: #efefef;
+  shadow-offset: 0px 2px;
+  shadow-opacity: 1;
+  shadow-radius: 2;
 `

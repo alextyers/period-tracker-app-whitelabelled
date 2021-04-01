@@ -50,4 +50,5 @@ const Container = styled.View`
   padding-horizontal: 10;
   margin-vertical: 10;
   height: 35;
+  z-index: 9;
 `

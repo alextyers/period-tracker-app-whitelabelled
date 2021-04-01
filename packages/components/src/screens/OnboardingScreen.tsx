@@ -67,7 +67,7 @@ export function OnboardingScreen() {
               backgroundColor: '#f49200',
               width: 100,
               position: 'absolute',
-              bottom: 10,
+              bottom: 20,
               right: 15,
             }}
             textStyle={{ color: 'white' }}

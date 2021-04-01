@@ -13,7 +13,7 @@ const width = Dimensions.get('window').width
 export function TermsScreen({ navigation }) {
   const [page, setPage] = React.useState(0)
   const termsAndConditions = useSelector(selectors.termsAndConditionsContent)
-  const speechText = termsAndConditions.map((item) => item.content)
+  const speechText = termsAndConditions.map(item => item.content)
   const content = termsAndConditions.map((item, ind) => {
     if (item.type === 'HEADING') {
       return <HeadingText>{item.content}</HeadingText>
@@ -38,7 +38,7 @@ export function TermsScreen({ navigation }) {
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ width: numPages * width }}
         horizontal
-        onMomentumScrollEnd={(event) => {
+        onMomentumScrollEnd={event => {
           setPage(Math.round(event.nativeEvent.contentOffset.x / width))
         }}
         style={{ flex: 1 }}
@@ -102,8 +102,8 @@ const Circle = styled.View<{ isHighlighted: boolean }>`
   margin-horizontal: 2.5;
   margin-bottom: 2.5;
   border-radius: 10;
-  elevation: ${(props) => (props.isHighlighted ? 5 : 2)};
-  background-color: ${(props) => (props.isHighlighted ? '#f9c7c1' : `#efefef`)};
+  elevation: ${props => (props.isHighlighted ? 5 : 2)};
+  background-color: ${props => (props.isHighlighted ? '#f9c7c1' : `#efefef`)};
 `
 
 const ViewContainer = styled.View`
@@ -125,12 +125,12 @@ const ContentText = styled(TextWithoutTranslation)`
   color: #4d4d4d;
   margin-bottom: 10;
   width: 100%;
-  text-align: justify;
+  text-align: left;
 `
 const HeadingText = styled(TextWithoutTranslation)`
   font-size: 16;
   font-family: Roboto-Black;
-  text-align: justify;
+  text-align: left;
   color: #4d4d4d;
   width: 100%;
   margin-bottom: 10;

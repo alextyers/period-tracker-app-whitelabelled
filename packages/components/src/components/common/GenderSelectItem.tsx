@@ -12,7 +12,7 @@ export const GenderSelectItem = ({ gender, onPress, isActive = false }) => {
           source={isActive ? assets.static.icons[gender] : assets.static.icons[gender + 'Grey']}
           resizeMode="contain"
         />
-        <Text style={{ fontFamily: 'Roboto_Regular', fontSize: 10, textAlign: 'center' }}>
+        <Text style={{ fontFamily: 'Roboto-Regular', fontSize: 10, textAlign: 'center' }}>
           {gender}
         </Text>
       </Block>

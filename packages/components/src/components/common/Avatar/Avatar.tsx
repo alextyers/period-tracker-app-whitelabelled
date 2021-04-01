@@ -1,5 +1,5 @@
 import React from 'react'
-import { TouchableOpacity, Image, Animated, Easing } from 'react-native'
+import { TouchableOpacity, Image, Animated, Easing, Platform } from 'react-native'
 import LottieView from 'lottie-react-native'
 import { assets } from '../../../assets/index'
 import { ProgressBar } from './ProgressBar'
@@ -41,7 +41,7 @@ export function Avatar({
   const [animatedProgress] = React.useState(new Animated.Value(0))
 
   const { onPeriod } = useTodayPrediction()
-  const cardAnswersToday = useSelector((state) => selectors.cardAnswerSelector(state, moment.utc()))
+  const cardAnswersToday = useSelector(state => selectors.cardAnswerSelector(state, moment.utc()))
   React.useEffect(() => {
     const intervalId = setTimeout(hideDisplayText, 3000)
     return () => {
@@ -64,6 +64,7 @@ export function Avatar({
       Animated.timing(animatedProgress, {
         toValue: 0,
         duration: 0,
+        delay: 3000,
         useNativeDriver: true,
       }),
       Animated.timing(animatedProgress, {
@@ -94,11 +95,12 @@ export function Avatar({
     })
   }
 
-  const runSequencedAnimation = (animation) => {
+  const runSequencedAnimation = animation => {
     Animated.sequence([
       Animated.timing(animatedProgress, {
         toValue: animation.start,
         duration: 0,
+        delay: 3000,
         useNativeDriver: true,
       }),
       Animated.timing(animatedProgress, {
@@ -120,7 +122,7 @@ export function Avatar({
           containerStyle={{
             position: 'absolute',
             left: 75,
-            top: -80,
+            top: Platform.OS === 'ios' ? -110 : -80,
             width: '85%',
           }}
         >
@@ -140,8 +142,8 @@ export function Avatar({
           <LottieView
             resizeMode="contain"
             style={{
-              width: 125,
-              bottom: 45,
+              width: Platform.OS === 'ios' ? 120 : 125,
+              bottom: Platform.OS === 'ios' ? 31 : 45,
               ...avatarStyle,
             }}
             source={assets.lottie.avatars[selectedAvatar]}
@@ -161,13 +163,13 @@ export function Avatar({
   )
 }
 
-const heartImageFill = (fill) => {
+const heartImageFill = fill => {
   if (fill < 50) return assets.static.icons.heart.empty
   if (fill >= 50 && fill < 100) return assets.static.icons.heart.half
   if (fill >= 100) return assets.static.icons.heart.full
 }
 
-const starImageFill = (numberOfElements) => {
+const starImageFill = numberOfElements => {
   if (numberOfElements === null) return assets.static.icons.starOrange.empty
   if (numberOfElements < 2) return assets.static.icons.starOrange.empty
   if (numberOfElements >= 2 && numberOfElements < 4) return assets.static.icons.starOrange.half

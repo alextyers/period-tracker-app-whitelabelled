@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Animated, StyleSheet, Image } from 'react-native'
+import { View, Animated, StyleSheet, Image, Platform } from 'react-native'
 import { assets } from '../../../assets/index'
 
 export function HeartAnimation({ count }) {
@@ -34,16 +34,8 @@ export function HeartAnimation({ count }) {
   return (
     <View style={StyleSheet.absoluteFill} pointerEvents="none">
       {hearts.map(({ id, left }) => (
-        <AnimatedShape
-          key={id}
-          height={height}
-          style={{ left }}
-          onComplete={() => removeHeart(id)}
-        >
-          <Image
-            source={assets.static.icons.heart.full}
-            style={{ height: 30, width: 30 }}
-          />
+        <AnimatedShape key={id} height={height} style={{ left }} onComplete={() => removeHeart(id)}>
+          <Image source={assets.static.icons.heart.full} style={{ height: 30, width: 30 }} />
         </AnimatedShape>
       ))}
     </View>
@@ -113,7 +105,7 @@ function AnimatedShape({ height, onComplete, children, style }) {
       outputRange: ['0deg', '-2deg', '0deg', '2deg', '0deg'],
     })
 
-    setTimeout(() => setAnimationsReady(true), 20)
+    setTimeout(() => setAnimationsReady(true), 400)
   }
 
   return (

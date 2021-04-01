@@ -66,7 +66,7 @@ const Row = styled.View`
 
 const AnswerText = styled(TextWithoutTranslation)`
   font-size: 15;
-  text-align: justify;
+  text-align: left;
   font-family: Roboto-Black;
   color: #e3629b;
 `
@@ -89,5 +89,5 @@ const ContentText = styled(Text)`
   width: 100%;
   color: #4d4d4d;
   font-size: 12;
-  text-align: justify;
+  text-align: left;
 `

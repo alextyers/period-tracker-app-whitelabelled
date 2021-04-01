@@ -19,6 +19,9 @@ const {
   Value,
   useCode,
   cond,
+  call,
+  or,
+  eq,
   Clock,
   and,
   set,
@@ -40,9 +43,10 @@ export function CarouselElement({ dataEntry, index, isActive, currentIndex }) {
   const clock = new Clock()
   const value = new Value(0)
   const color = useColor(dataEntry.onPeriod, dataEntry.onFertile)
-  const cardAnswersValues = useSelector((state) =>
+  const cardAnswersValues = useSelector(state =>
     selectors.cardAnswerSelector(state, moment(dataEntry.date)),
   )
+
   useCode(
     block([
       cond(and(not(isActive), approximates(index, currentIndex)), [
@@ -99,8 +103,8 @@ export function CarouselElement({ dataEntry, index, isActive, currentIndex }) {
             const emoji = isArray
               ? isEmojiActive
                 ? emojis[cardAnswersValues[item][0]]
-                : '💁'
-              : emojis[cardAnswersValues[item]] || '💁'
+                : '💁🏻'
+              : emojis[cardAnswersValues[item]] || '💁🏻'
             return (
               <EmojiSelector
                 color={color}

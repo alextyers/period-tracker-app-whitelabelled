@@ -63,6 +63,7 @@ const InfoSection = styled.View`
   flex-direction: row;
   align-items: center;
   position: absolute;
+  z-index: 10;
   top: 8;
   right: 30;
 `

@@ -1,5 +1,6 @@
 import React from 'react'
 import Swiper from 'react-native-swiper'
+import { Platform } from 'react-native'
 
 export const SwiperContainer = React.forwardRef<
   any,
@@ -30,6 +31,7 @@ export const SwiperContainer = React.forwardRef<
         scrollEnabled={scrollEnabled || false}
         pagingEnabled={pagingEnabled || false}
         removeClippedSubviews={false}
+        loop={false}
         onIndexChanged={ind => {
           onIndexChange()
           setIndex(ind)
@@ -40,7 +42,7 @@ export const SwiperContainer = React.forwardRef<
           width: 18,
           height: 18,
           borderRadius: 10,
-          marginBottom: 0,
+          marginBottom: Platform.OS === 'ios' ? 10 : 20,
           elevation: 2,
         }}
         activeDotStyle={{
@@ -48,7 +50,7 @@ export const SwiperContainer = React.forwardRef<
           height: 18,
           borderRadius: 10,
           elevation: 6,
-          marginBottom: 0,
+          marginBottom: Platform.OS === 'ios' ? 10 : 20,
         }}
         ref={ref}
       >

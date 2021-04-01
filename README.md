@@ -158,7 +158,7 @@ Stop the metro (ctrl+c) and stop the containers `docker-compose down` and re-run
 
 ## Start react native
 
-### Run react native
+### Run react native for Android
 
 Start the simulator, then run react-native for android:
 
@@ -168,6 +168,25 @@ react-native run-android
 ```
 
 Remember to reverse the ports to have access to the functionality of the api/cms. All should run at this point. If there are android build errors. Try open the project in Android Studio, clean build and re-sync the gradle files.
+
+### Run react native for iOS
+
+Install the pods required for iOS
+
+```bash
+cd packages/mobile/ios
+pod install
+```
+
+Run react-native for iOS (you can choose relevant simulator/emulator):
+
+```bash
+cd packages/mobile
+react-native run-ios --simulator="iPhone 12 Pro" 
+```
+
+<strong>Note:</strong> you will need access to Apple developer account so you can create your developemnt certificate and profile before running the ios app using xcode.
+
 
 ## Start the backend
 

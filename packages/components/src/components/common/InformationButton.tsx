@@ -34,7 +34,9 @@ export const InformationButton = ({
   )
 }
 
-const TouchableArea = styled.TouchableOpacity``
+const TouchableArea = styled.TouchableOpacity`
+  padding-vertical: 25;
+`
 
 const TutorialLaunchLabel = styled(Text)`
   color: white;

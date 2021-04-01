@@ -46,3 +46,12 @@ export const notificationListener = () => {
       })
   })
 }
+
+export const requestUserPermission = () => {
+  const authStatus = firebase
+    .messaging()
+    .requestPermission()
+    .catch(err => {
+      throw new Error('Notification Authorization status Error')
+    })
+}

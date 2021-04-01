@@ -175,7 +175,7 @@ const AnswerText = styled(TextWithoutTranslation)<{ colorSelect: boolean }>`
   font-size: 13;
   width: 100%;
   font-family: Roboto-Black;
-  text-align: justify;
+  text-align: left;
   color: ${props => (props.colorSelect ? '#e3629b' : '#f49200')};
 `
 const TextContainer = styled.View`
@@ -196,5 +196,5 @@ const ContentText = styled(Text)`
   width: 100%;
   color: #4d4d4d;
   font-size: 12;
-  text-align: justify;
+  text-align: left;
 `

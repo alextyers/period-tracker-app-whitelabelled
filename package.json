@@ -6,7 +6,7 @@
     "clean": "yarn workspaces run clean",
     "compile": "yarn workspaces run compile",
     "dev": "yarn run clean && yarn run compile && concurrently --kill-others \"docker-compose up\" \"yarn workspace @oky/mobile compile -w\" \"yarn workspace @oky/mobile start\"",
-    "dev:mobile": "yarn run clean && concurrently --kill-others \"yarn workspace @oky/mobile compile -w\" \"yarn workspace @oky/mobile start\"",
+    "dev:mobile": "yarn run clean && yarn run compile && concurrently --kill-others \"yarn workspace @period-tracker-app/mobile compile -w\" \"yarn workspace @period-tracker-app/mobile start\"",
     "prod:web": "docker-compose -f docker-compose.yml build && docker-compose -f docker-compose.yml up",
     "format": "yarn workspaces run format",
     "lint": "yarn workspaces run lint",

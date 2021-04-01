@@ -11,7 +11,7 @@ import {
   useHistoryPrediction,
 } from '../../components/context/PredictionProvider'
 import moment from 'moment'
-import { View } from 'react-native'
+import { View, Platform } from 'react-native'
 import { assets } from '../../assets/index'
 import { useDisplayText } from '../../components/context/DisplayTextContext'
 import { InformationButton } from '../../components/common/InformationButton'
@@ -49,7 +49,12 @@ export function ColourButtons({
 
   const minimizeToTutorial = () => {
     hide()
-    navigateToTutorial()
+    setTimeout(
+      () => {
+        navigateToTutorial()
+      },
+      Platform.OS === 'ios' ? 500 : 300,
+    )
   }
 
   if (inputDay === null) {
@@ -87,6 +92,7 @@ export function ColourButtons({
           top: 10,
           left: 10,
           flexDirection: 'row',
+          zIndex: 99,
         }}
         label="tutorial_launch_label"
         onPress={() => minimizeToTutorial()}

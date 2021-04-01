@@ -1,7 +1,7 @@
 import React from 'react'
 import { WheelPicker } from 'react-native-wheel-picker-android'
 import { translate } from '../i18n'
-
+import { Platform } from 'react-native'
 export const WheelPickerContent = ({
   optionsRange,
   optionsUnit,
@@ -20,7 +20,7 @@ export const WheelPickerContent = ({
       }}
       itemTextSize={18}
       selectedItemTextSize={18}
-      itemStyle={{ height: 50 }}
+      itemStyle={{ height: Platform.OS === 'ios' ? 150 : 50 }}
       data={optionsRange.map(
         option =>
           `${option} ${option === 1 ? translate(optionsUnit[0]) : translate(optionsUnit[1])}`,

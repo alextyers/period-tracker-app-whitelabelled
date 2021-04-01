@@ -6,7 +6,7 @@ import _ from 'lodash'
 import { Text, TextWithoutTranslation } from './Text'
 import { ThemedModal } from './ThemedModal'
 import { translate } from '../../i18n'
-
+import { Platform } from 'react-native'
 const now = moment()
 const currentYear = now.year()
 const currentMonth = now.month()
@@ -36,14 +36,14 @@ export function DateOfBirthInput({ style, textStyle = null, label, onChange, val
           <Column>
             <WheelPicker
               style={{ width: '50%', height: 200 }}
-              itemStyle={{ height: 44 }}
+              itemStyle={{ height: Platform.OS === 'ios' ? 132 : 44 }}
               selectedItem={selectedMonth}
               data={monthRange.map(item => `${translate(item)}`)}
               onItemSelected={option => setMonthSelected(monthRange[option])}
             />
             <WheelPicker
               style={{ width: '50%', height: 200 }}
-              itemStyle={{ height: 44 }}
+              itemStyle={{ height: Platform.OS === 'ios' ? 132 : 44 }}
               selectedItem={selectedYear}
               data={yearRange}
               onItemSelected={option => setYearSelected(yearRange[option])}

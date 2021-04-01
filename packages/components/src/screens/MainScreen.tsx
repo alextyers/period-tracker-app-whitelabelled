@@ -1,4 +1,5 @@
 import React from 'react'
+import { Platform } from 'react-native'
 import { BackgroundTheme } from '../components/layout/BackgroundTheme'
 import { CircleProgress } from './mainScreen/CircleProgress'
 import styled from 'styled-components/native'
@@ -52,9 +53,9 @@ const MainScreenActual = React.memo(() => {
             onPress={() => navigate('Calendar', null)}
             fillColor="#FFC900"
             emptyFill="#F49200"
-            style={{ alignSelf: 'flex-start', marginLeft: 15 }}
+            style={{ alignSelf: 'flex-start', marginLeft: 15, zIndex: 999 }}
           />
-          <Avatar style={{ position: 'absolute', top: 90 }} />
+          <Avatar style={{ position: 'absolute', top: Platform.OS === 'ios' ? 180 : 150 }} />
         </AvatarSection>
         <WheelSection>
           <CircularSelection {...{ data, index, isActive, currentIndex, absoluteIndex }} />
@@ -71,6 +72,7 @@ const MainScreenActual = React.memo(() => {
 const TopSeparator = styled.View`
   height: 10%;
   width: 100%;
+  z-index: 9998;
 `
 const MiddleSection = styled.View`
   height: 60%;
@@ -81,6 +83,7 @@ const AvatarSection = styled.View`
   height: 100%;
   width: 35%;
   justify-content: flex-start;
+  z-index: 9999;
 `
 const WheelSection = styled.View`
   height: 100%;

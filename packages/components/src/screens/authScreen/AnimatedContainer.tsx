@@ -1,5 +1,5 @@
 import React from 'react'
-import { Animated } from 'react-native'
+import { Animated, Platform } from 'react-native'
 import styled from 'styled-components/native'
 import { Text } from '../../components/common/Text'
 import { SignUp } from './SignUp'
@@ -58,7 +58,13 @@ export function AnimatedContainer({ toggled }) {
   let maxHeight = 260
   return (
     <>
-      <Container style={{ backgroundColor: 'white', borderRadius: 10, elevation: 4 }}>
+      <Container
+        style={{
+          backgroundColor: Platform.OS === 'ios' ? '' : 'white',
+          borderRadius: 10,
+          elevation: 4,
+        }}
+      >
         <KeyboardAwareAvoidance>
           <UpperContent
             expanded={expanded}

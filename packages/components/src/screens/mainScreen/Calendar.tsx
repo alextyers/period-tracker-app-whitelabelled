@@ -26,8 +26,12 @@ const height = Dimensions.get('window').height
 // const calendarHeight = 0.71 * height
 const calendarWidth = 0.95 * width
 
-const startDate = moment().startOf('day').subtract(24, 'months')
-const endDate = moment().startOf('day').add(12, 'months')
+const startDate = moment()
+  .startOf('day')
+  .subtract(24, 'months')
+const endDate = moment()
+  .startOf('day')
+  .add(12, 'months')
 
 export const Calendar = () => {
   const highlightedDates = useCalculateStatusForDateRange(startDate, endDate)
@@ -52,8 +56,9 @@ export const Calendar = () => {
     setIsVisible(false)
     if (inputDay.diff(moment().startOf('day'), 'days') <= 0) {
       navigate('DayScreen', { data: currentDayInfo })
+    } else {
+      setCalendarText(translate(`too_far_ahead`))
     }
-    setCalendarText(translate(`too_far_ahead`))
   }
 
   const manageAnimationToColourButtons = () => {
@@ -121,7 +126,7 @@ export const Calendar = () => {
         <CalendarContainer>
           <CalendarList
             highlightedDates={highlightedDates}
-            setInputDay={(day) => {
+            setInputDay={day => {
               setInputDay(day)
               setIsVisible(true)
             }}

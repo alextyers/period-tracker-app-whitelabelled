@@ -12,6 +12,7 @@ import {
   createNotificationChannel,
   setScheduledNotification,
   cancelAllScheduledNotifications,
+  requestUserPermission,
 } from '../services/notifications'
 import moment from 'moment'
 import { translate } from '../i18n'
@@ -85,6 +86,7 @@ export function SplashScreen() {
 
   React.useEffect(() => {
     checkForPermanentAlerts()
+    requestUserPermission()
     createNotificationChannel()
     syncAllNotifications()
     firebase.messaging().unsubscribeFromTopic('oky_en_notifications')

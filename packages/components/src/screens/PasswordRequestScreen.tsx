@@ -38,7 +38,6 @@ export function PasswordRequestScreen() {
                   backgroundColor: 'white',
                   paddingHorizontal: 15,
                   elevation: 4,
-                  overflow: 'hidden',
                 }}
               >
                 <TextInput
@@ -145,6 +144,10 @@ const Container = styled.View`
   justify-content: center;
   align-items: center;
   width: 100%;
+  shadow-color: #efefef;
+  shadow-offset: 0px 2px;
+  shadow-opacity: 10;
+  shadow-radius: 2;
 `
 
 const Touchable = styled.TouchableOpacity`

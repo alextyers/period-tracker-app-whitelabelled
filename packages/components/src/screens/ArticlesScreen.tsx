@@ -89,5 +89,5 @@ const ArticleTitle = styled(TextWithoutTranslation)`
 `
 
 const ArticleContent = styled(TextWithoutTranslation)`
-  text-align: justify;
+  text-align: left;
 `

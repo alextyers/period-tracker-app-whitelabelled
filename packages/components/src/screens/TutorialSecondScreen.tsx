@@ -9,7 +9,7 @@ import { CenterCard } from './mainScreen/CenterCard'
 import { Avatar } from '../components/common/Avatar/Avatar'
 import { useInfiniteScroll } from './mainScreen/wheelCarousel/useInfiniteScroll'
 import { navigateAndReset } from '../services/navigationService'
-import { Animated, Dimensions } from 'react-native'
+import { Animated, Dimensions, Platform } from 'react-native'
 import { useDispatch } from 'react-redux'
 import * as actions from '../redux/actions'
 import { Text } from '../components/common/Text'
@@ -202,12 +202,12 @@ export function TutorialSecondScreen() {
     Animated.parallel([
       Animated.timing(positionDemoX, {
         toValue: -500,
-        duration: 400,
+        duration: Platform.OS === 'ios' ? 200 : 400,
         useNativeDriver: true,
       }),
       Animated.timing(positionDemoY, {
         toValue: stepInfo[step].demonstrationComponent.position.y,
-        duration: 400,
+        duration: Platform.OS === 'ios' ? 200 : 400,
         useNativeDriver: true,
       }),
     ]).start(() => {
@@ -225,12 +225,12 @@ export function TutorialSecondScreen() {
     Animated.parallel([
       Animated.timing(positionDemoX, {
         toValue: stepInfo[step].demonstrationComponent.position.x,
-        duration: 400,
+        duration: Platform.OS === 'ios' ? 200 : 400,
         useNativeDriver: true,
       }),
       Animated.timing(positionDemoY, {
         toValue: stepInfo[step].demonstrationComponent.position.y,
-        duration: 400,
+        duration: Platform.OS === 'ios' ? 200 : 400,
         useNativeDriver: true,
       }),
     ]).start()
@@ -250,14 +250,14 @@ export function TutorialSecondScreen() {
                 alignSelf: 'flex-start',
                 marginLeft: 15,
                 position: 'relative',
-                zIndex: step === 5 ? 50 : 0,
+                zIndex: step === 5 ? 999 : 0,
                 elevation: step === 5 ? 10 : 0,
               }}
             />
             <Avatar style={{ position: 'absolute', top: 90, zIndex: 0, elevation: 0 }} />
             <Overlay />
           </AvatarSection>
-          <WheelSection {...{ step }}>
+          <WheelSection {...{ step }} style={{ width: Platform.OS === 'ios' ? '70%' : '65%' }}>
             <CircularSelection
               {...{ data, index, isActive, currentIndex, absoluteIndex, disableInteraction: true }}
             />

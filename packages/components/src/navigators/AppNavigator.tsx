@@ -1,9 +1,7 @@
 import React from 'react'
-import {
-  createStackNavigator,
-  createAppContainer,
-  createBottomTabNavigator,
-} from 'react-navigation'
+import { createAppContainer } from 'react-navigation'
+import { createStackNavigator } from 'react-navigation-stack'
+import { createBottomTabNavigator } from 'react-navigation-tabs'
 import { AuthScreen } from '../screens/AuthScreen'
 import { InfoScreen } from '../screens/InfoScreen'
 import { EncyclopediaScreen } from '../screens/EncyclopediaScreen'

@@ -9,7 +9,7 @@ import { CenterCard } from './mainScreen/CenterCard'
 import { Avatar } from '../components/common/Avatar/Avatar'
 import { useInfiniteScroll } from './mainScreen/wheelCarousel/useInfiniteScroll'
 import { navigateAndReset } from '../services/navigationService'
-import { Animated, Dimensions } from 'react-native'
+import { Animated, Dimensions, Platform } from 'react-native'
 import { useDispatch } from 'react-redux'
 import * as actions from '../redux/actions'
 import { Text } from '../components/common/Text'
@@ -17,6 +17,7 @@ import { Icon } from '../components/common/Icon'
 import { assets } from '../assets'
 import { ColourButtonsDemo } from './tutorial/ColourButtonsDemo'
 import { SpinLoader } from '../components/common/SpinLoader'
+import DeviceInfo from 'react-native-device-info'
 
 const screenHeight = Dimensions.get('screen').height
 const screenWidth = Dimensions.get('screen').width
@@ -55,7 +56,10 @@ export function TutorialFirstScreen() {
       heading: `tutorial_1_content`,
       animationPositionEnd: {
         x: normalizePosition(0.15, screenWidth),
-        y: normalizePosition(0.33, screenHeight),
+        y: normalizePosition(
+          Platform.OS === 'ios' ? (DeviceInfo.hasNotch() ? 0.4 : 0.35) : 0.33,
+          screenHeight,
+        ),
         z: 0,
       },
       demonstrationComponent: { isAvailable: false },
@@ -65,7 +69,10 @@ export function TutorialFirstScreen() {
       heading: `tutorial_3_content`,
       animationPositionEnd: {
         x: normalizePosition(0.4, screenWidth),
-        y: normalizePosition(0.33, screenHeight),
+        y: normalizePosition(
+          Platform.OS === 'ios' ? (DeviceInfo.hasNotch() ? 0.4 : 0.37) : 0.33,
+          screenHeight,
+        ),
         z: 0,
       },
       demonstrationComponent: { isAvailable: false },
@@ -227,23 +234,37 @@ export function TutorialFirstScreen() {
   return (
     <BackgroundTheme>
       <Container>
-        <TopSeparator />
+        <TopSeparator style={{ height: DeviceInfo.hasNotch() ? screenHeight * 0.13 : '10%' }} />
         <MiddleSection>
           <AvatarSection {...{ step }}>
             <CircleProgress
               onPress={() => null}
               fillColor="#FFC900"
               emptyFill="#F49200"
-              style={{ alignSelf: 'flex-start', marginLeft: 15, position: 'relative' }}
+              style={{
+                alignSelf: 'flex-start',
+                marginLeft: 15,
+                position: 'relative',
+                zIndex: step === 0 ? 999 : 0,
+              }}
             />
-            <Avatar style={{ position: 'absolute', top: 90, elevation: step === 0 ? 20 : 0 }} />
+            <Avatar
+              style={{
+                position: 'absolute',
+                top: 90,
+                elevation: step === 0 ? 20 : 0,
+                zIndex: step === 0 ? 999 : 0,
+              }}
+            />
             <Overlay />
           </AvatarSection>
-          <WheelSection {...{ step }}>
+          <WheelSection {...{ step }} style={{ width: Platform.OS === 'ios' ? '68%' : '65%' }}>
             <CircularSelection
               {...{ data, index, isActive, currentIndex, absoluteIndex, disableInteraction: true }}
             />
-            <CenterCard style={step === 2 ? { elevation: 20 } : { elevation: -20 }} />
+            <CenterCard
+              style={step === 2 ? { elevation: 20, zIndex: 999 } : { elevation: -20, zIndex: 0 }}
+            />
             {step !== 1 && step !== 3 && <Overlay />}
           </WheelSection>
         </MiddleSection>
@@ -344,6 +365,7 @@ const AvatarSection = styled.View<{ step: number }>`
   height: 100%;
   width: 35%;
   justify-content: flex-start;
+  z-index: 999;
 `
 const WheelSection = styled.View<{ step: number }>`
   height: 100%;

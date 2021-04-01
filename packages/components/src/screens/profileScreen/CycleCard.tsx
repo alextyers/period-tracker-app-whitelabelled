@@ -79,7 +79,7 @@ export const CycleCard = ({ item, cycleNumber }) => {
               style={{ height: 35, width: 35, marginRight: 5, borderRadius: 17.5 }}
               emojiStyle={{ fontSize: 16 }}
               title={translate(cardItem)}
-              emoji={emojis[cardAnswersValues[cardItem]] || '💁'}
+              emoji={emojis[cardAnswersValues[cardItem]] || '💁🏻‍'}
               textStyle={{ position: 'absolute', bottom: -10, fontSize: 8 }}
             />
           ))}

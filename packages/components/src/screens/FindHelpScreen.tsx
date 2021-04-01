@@ -1,5 +1,5 @@
 import React from 'react'
-import { Dimensions } from 'react-native'
+import { Dimensions, Platform } from 'react-native'
 import styled from 'styled-components/native'
 import { BackgroundTheme } from '../components/layout/BackgroundTheme'
 import { Header } from '../components/common/Header'
@@ -55,7 +55,7 @@ export function FindHelpScreen({ navigation }) {
         <MiddleSection>
           <AvatarSection>
             <Avatar
-              avatarStyle={{ width: 110, bottom: null, top: -30 }}
+              avatarStyle={{ width: 110, bottom: null, top: Platform.OS === 'ios' ? -25 : -30 }}
               style={{
                 alignItems: 'flex-start',
                 justifyContent: 'flex-start',

@@ -9,7 +9,7 @@ import { Icon } from '../../../components/common/Icon'
 import { assets } from '../../../assets/index'
 import moment from 'moment'
 import { translate } from '../../../i18n'
-import { TouchableOpacity, Animated } from 'react-native'
+import { TouchableOpacity, Animated, Platform } from 'react-native'
 import { ThemedModal } from '../../../components/common/ThemedModal'
 import { formHeights } from './FormHeights'
 
@@ -103,12 +103,13 @@ export function AskAge({ step, heightInner }) {
           isVisible={isVisible}
           setIsVisible={setIsVisible}
           onModalHide={() => setInfoDisplay(false)}
+          animationOutTiming={Platform.OS === 'ios' ? 100 : 600}
         >
           {!infoDisplay && (
             <CardPicker>
               <WheelPicker
                 style={{ width: 250, height: 200 }}
-                itemStyle={{ height: 44 }}
+                itemStyle={{ height: Platform.OS === 'ios' ? 132 : 44 }}
                 selectedItem={selectedItem}
                 data={flag ? monthRange.map(item => `${translate(item)}`) : yearRange}
                 onItemSelected={option =>
@@ -118,6 +119,13 @@ export function AskAge({ step, heightInner }) {
 
               <Confirm
                 onPress={() => {
+                  if (flag) {
+                    if (monthSelected === '') {
+                      setMonthSelected(monthRange[0])
+                    }
+                  } else if (yearSelected === '') {
+                    setYearSelected(yearRange[0])
+                  }
                   dispatch({
                     type: 'change-form-data',
                     inputName: 'dateOfBirth',

@@ -69,6 +69,10 @@ const Container = styled.View`
   justify-content: center;
   align-items: center;
   width: 100%;
+  shadow-color: #efefef;
+  shadow-offset: 0px 2px;
+  shadow-opacity: 1;
+  shadow-radius: 2;
 `
 
 const Touchable = styled.TouchableOpacity`
