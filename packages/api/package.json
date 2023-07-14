@@ -42,7 +42,7 @@
     "@period-tracker-app/core": "*",
     "bcrypt": "^3.0.6",
     "body-parse": "^0.1.0",
-    "class-validator": "^0.8.1",
+    "class-validator": "^0.14.0",
     "cookie-parser": "^1.4.4",
     "dotenv": "^8.0.0",
     "ejs": "^2.6.1",
